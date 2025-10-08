@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acarde Gan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============================================= -->
+    <!--                    HEADER                     -->
+    <!-- ============================================= -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">
+          <svg
+            class="logo-icon"
+            width="40"
+            height="40"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M50 10C27.9 10 10 27.9 10 50C10 72.1 27.9 90 50 90C62.2 90 73.2 84.2 80.5 75.5L65 60C62.1 62.9 56.4 65 50 65C36.2 65 25 53.8 25 40C25 30.9 30.9 23.1 39 19.5V30H49V10.3C49.3 10.2 49.7 10.1 50 10.1C50 10.1 50 10 50 10Z"
+              fill="white"
+            />
+            <path
+              d="M50 10C50 10 50 10.1 50 10.1C50.3 10.1 50.7 10.2 51 10.3V30H61V19.5C69.1 23.1 75 30.9 75 40C75 53.8 63.8 65 50 65C43.6 65 37.9 62.9 35 60L19.5 75.5C26.8 84.2 37.8 90 50 90C72.1 90 90 72.1 90 50C90 27.9 72.1 10 50 10Z"
+              fill="white"
+            />
+          </svg>
+          <span>ARCADE GEN</span>
+        </a>
+        <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div class="nav-actions">
+          <nav class="nav-menu">
+            <ul>
+              <li class="dropdown">
+                <a href="#" class="dropbtn">Produtos</a>
+                <div class="dropdown-content">
+                  <a href="#">Mais vendidos</a>
+                  <a href="#">Games</a>
+                  <a href="#">Consoles</a>
+                  <a href="#">Controles</a>
+                  <a href="#">Acessórios</a>
+                </div>
+              </li>
+              <li><a href="#">Promoções</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="login-link" aria-label="Login">
+            <svg
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span>Login</span>
+          </a>
+          <a href="#" class="cart-link" aria-label="Carrinho de compras">
+            <svg
+              class="icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============================================= -->
+    <!--                 MAIN CONTENT                  -->
+    <!-- ============================================= -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text-box">
+            <p>Mais poder ao seu gaming</p>
+            <h1>CYBER KID<br />INFINITE</h1>
+            <p>Disponível para PC e console</p>
+            <a href="#" class="btn-buy">Comprar agora</a>
+          </div>
+          <div class="hero-image-box">
+            <img
+              src="./assets/img/cyberpunkcard.png"
+              alt="Personagem Cyber Kid"
+            />
+            <div class="image-overlay-text">
+              <span>CYBER</span>
+              <span class="handwritten">KID</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bestsellers Section -->
+      <section class="bestsellers-section">
+        <div class="section-header">
+          <h2>MAIS VENDIDOS</h2>
+          <a href="#" class="btn-view-all">Ver tudo</a>
+        </div>
+        <div class="product-carousel">
+          <button class="carousel-arrow prev" aria-label="Anterior">
+            &#x2039;
+          </button>
+          <div class="product-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/products/console_joystick.png" alt="Gen X" />
+                <div class="product-info">
+                  <h3>Console Gen X</h3>
+                  <p class="price">R$ 3.479,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/products/mouse-game.png"
+                  alt="Mouse Wireless X-2"
+                />
+                <div class="product-info">
+                  <h3>Mouse Wireless X-2</h3>
+                  <p class="price">R$ 124,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/products/teclado-gamer.png"
+                  alt="Teclado Gamer"
+                />
+                <div class="product-info">
+                  <h3>Teclado Gamer</h3>
+                  <p class="price">R$ 199,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/products/headset-gamer.png" alt="Headset" />
+                <div class="product-info">
+                  <h3>Headset Gamer X</h3>
+                  <p class="price">R$ 145,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 5 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/products/mousepad-gamer.png"
+                  alt="Mousepad Gamer"
+                />
+                <div class="product-info">
+                  <h3>Maousepad Gamer</h3>
+                  <p class="price">R$ 55,00</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 6 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/products/memoryram.png" alt="Memoria RAM" />
+                <div class="product-info">
+                  <h3>Memoria RAM DD5 5gb</h3>
+                  <p class="price">R$ 250,00</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 7 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/products/cooler-gamer.png"
+                  alt="Cooler Rise Mode Gamer"
+                />
+                <div class="product-info">
+                  <h3>Cooler Rise Mode Gamer</h3>
+                  <p class="price">R$ 149,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 8 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/products/placa-de-video-gamer.png"
+                  alt="GeX RTX 560 Zentus 2X1"
+                />
+                <div class="product-info">
+                  <h3>GeX RTX 560 Zentus 2X1</h3>
+                  <p class="price">R$ 2.859,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-arrow next" aria-label="Próximo">
+            &#x203A;
+          </button>
+        </div>
+      </section>
+
+      <!-- Categories Section -->
+      <section class="categories-section">
+        <div class="categories-container">
+          <h2>VEJA POR CATEGORIA</h2>
+          <div class="category-grid">
+            <a href="#" class="category-card">
+              <img
+                src="./assets/category/consoles-category.png"
+                alt="Consoles"
+              />
+              <div class="category-info">
+                <h3>CONSOLES</h3>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <img
+                src="./assets/category/accessories-categories.png"
+                alt="Periféricos"
+              />
+              <div class="category-info">
+                <h3>PERIFÉRICOS</h3>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <img
+                src="./assets/category/joystick-category.png"
+                alt="Controles"
+              />
+              <div class="category-info">
+                <h3>CONTROLES</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Games Section -->
+      <section class="trending-games-section">
+        <div class="section-header">
+          <h2>GAMES EM ALTA</h2>
+          <a href="#" class="btn-view-all">Ver tudo</a>
+        </div>
+        <div class="product-carousel">
+          <button class="carousel-arrow prev" aria-label="Anterior">
+            &#x2039;
+          </button>
+          <div class="product-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/games-section/neoquest.png"
+                  alt="Neo Quest"
+                />
+                <div class="product-info">
+                  <h3>Neo Quest</h3>
+                  <p class="price">R$ 199,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/games-section/red dead redemption 2.png"
+                  alt="red dead redemption 2"
+                />
+                <div class="product-info">
+                  <h3>Red Dead Redemption 2</h3>
+                  <p class="price">R$ 101,37</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <span class="promo-tag">PROMOÇÃO</span>
+                <img
+                  src="./assets/games-section/Silksong.png"
+                  alt="Hollow Knight"
+                />
+                <div class="product-info">
+                  <h3>Hollow Knight</h3>
+                  <p class="price"><del>R$ 110,00</del> R$ 74,95</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="./assets/games-section/Clair Obscur Expedition 33.png"
+                  alt="Clair Obscur: Expedition 33"
+                />
+                <div class="product-info">
+                  <h3>Clair Obscur: Expedition 33</h3>
+                  <p class="price">R$ 99,99</p>
+                  <button class="btn-add">Adicionar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-arrow next" aria-label="Próximo">
+            &#x203A;
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================= -->
+    <!--                   NEWSLETTER                  -->
+    <!-- ============================================= -->
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <h2>NEWSLETTER</h2>
+        <p>
+          Assine e receba atualizações sobre novos produtos e ofertas especiais
+        </p>
+        <form class="newsletter-form">
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!--                     FOOTER                    -->
+    <!-- ============================================= -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#" class="logo">
+            <svg
+              class="logo-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 100 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M50 10C27.9 10 10 27.9 10 50C10 72.1 27.9 90 50 90C62.2 90 73.2 84.2 80.5 75.5L65 60C62.1 62.9 56.4 65 50 65C36.2 65 25 53.8 25 40C25 30.9 30.9 23.1 39 19.5V30H49V10.3C49.3 10.2 49.7 10.1 50 10.1C50 10.1 50 10 50 10Z"
+                fill="white"
+              ></path>
+              <path
+                d="M50 10C50 10 50 10.1 50 10.1C50.3 10.1 50.7 10.2 51 10.3V30H61V19.5C69.1 23.1 75 30.9 75 40C75 53.8 63.8 65 50 65C43.6 65 37.9 62.9 35 60L19.5 75.5C26.8 84.2 37.8 90 50 90C72.1 90 90 72.1 90 50C90 27.9 72.1 10 50 10Z"
+                fill="white"
+              ></path>
+            </svg>
+            <span>ARCADE GEN</span>
+          </a>
+        </div>
+        <div class="footer-column">
+          <h3>Produtos</h3>
+          <ul>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Consoles</a></li>
+            <li><a href="#">Controles</a></li>
+            <li><a href="#">Acessórios</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Loja</h3>
+          <p>Rua da Moeda, 200<br />Recife - PE, 12345-000</p>
+          <p>Seg. a Sex.: 8:00 às 18:00</p>
+          <p>info@meusite.com</p>
+          <p>(81) 9999-9999</p>
+        </div>
+        <div class="footer-column">
+          <h3>Políticas</h3>
+          <ul>
+            <li><a href="#">Termos e Condições</a></li>
+            <li><a href="#">Política de Envio</a></li>
+            <li><a href="#">Política de Reembolso</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Política de Cookies</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ============================================= -->
+      <!--                     FOOTER-Pagamento          -->
+      <!-- ============================================= -->
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-container">
+          <!-- Community -->
+          <div class="footer-community">
+            <h3>Participe da comunidade</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"
+                ><svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12 2c2.717 0 3.056.01 4.122.06c1.065.05 1.79.217 2.428.465c.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.047 1.066.06 1.405.06 4.122c0 2.717-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772a4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465c-1.066.047-1.405.06-4.122.06c-2.717 0-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153a4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122c.05-1.065.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2Zm0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16Zm0 3a5 5 0 1 0 0 10a5 5 0 0 0 0-10Zm6.5-.25a1.25 1.25 0 0 0-1.25 1.25a1.25 1.25 0 0 0 1.25 1.25a1.25 1.25 0 0 0 1.25-1.25a1.25 1.25 0 0 0-1.25-1.25Z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12.142 16.62a4.45 4.45 0 0 0 4.248-2.336a1.22 1.22 0 0 1 1.112-.664a1.25 1.25 0 0 1 .663 2.32a6.95 6.95 0 0 1-6.58 3.63a6.95 6.95 0 0 1-6.95-6.95a6.95 6.95 0 0 1 6.95-6.95a6.92 6.92 0 0 1 4.247 1.412a1.25 1.25 0 1 1-1.6 1.92a4.42 4.42 0 0 0-2.647-.882a4.45 4.45 0 0 0-4.45 4.45a4.45 4.45 0 0 0 4.45 4.45Zm-1.5-5.12a1.25 1.25 0 0 1 1.875-.962l3.3 1.9a1.25 1.25 0 0 1 0 2.126l-3.3 1.9a1.25 1.25 0 0 1-1.875-.963v-3.9Z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="TikTok"
+                ><svg width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M16.6 5.82s.51-2.17 2.23-3.95C20.48 1.1 22 2.4 22 4.54s-1.44 3.61-1.44 3.61s-1.28 4.2-6.92 4.2v-3.09c3.47 0 5.5-1.84 5.5-1.84s2.23-1.93 1.28-3.61c-.23-.42-.64-.64-1.12-.64c-.49 0-.9.22-1.12.64c-.95 1.68-1.28 3.61-1.28 3.61s-1.44 3.61-5.5 3.61V2s3.09 0 3.09 0s1.28 4.2-6.92 4.2v-3.09c3.47 0 5.5-1.84 5.5-1.84S14.37 1.2 13.42 0c-.23-.42-.64-.64-1.12-.64c-.49 0-.9.22-1.12.64c-.95 1.68-1.28 3.61-1.28 3.61S8.47 7.22 3 7.22v3.09c3.47 0 5.5-1.84 5.5-1.84s2.23-1.93 1.28-3.61c-.23-.42-.64-.64-1.12-.64c-.49 0-.9.22-1.12.64c-.95 1.68-1.28 3.61-1.28 3.61s-1.44 3.61-5.5 3.61v3.09c6.92 0 8.36-4.2 8.36-4.2V22h3.09v-9.65c0-3.86 1.93-6.92 6.15-6.92c1.28 0 2.14.43 2.14.43s.51 2.17-1.28 3.61c-1.93 1.44-3.61 1.28-3.61 1.28Z"
+                  /></svg
+              ></a>
+            </div>
+            <p class="copyright-text">
+              © 2025 por ARCADE GEN.<br />created by Eduardo
+            </p>
+          </div>
+          <!-- Company Info -->
+          <div class="footer-company-info">
+            <p>ARCADE GEN - CPF/CNPJ: 99.999.999/0000-01</p>
+            <p>Rua da Moeda, 200 Recife, PE 12345-000 - info@meusite.com</p>
+            <p>Telefone: (81) 9 9999-0000</p>
+            <p>Estimativa de entrega 2 - 5 dias úteis</p>
+          </div>
+          <!-- Payment Methods -->
+          <div class="footer-payment">
+            <h3>Métodos de pagamento</h3>
+            <div class="payment-methods">
+              <img src="images/visa.png" alt="Visa" />
+              <img src="images/mastercard.png" alt="Mastercard" />
+              <img src="images/amex.png" alt="American Express" />
+              <img src="images/boleto.png" alt="Boleto" />
+              <img src="images/mercado-pago.png" alt="Mercado Pago" />
+              <img src="images/paypal.png" alt="PayPal" />
+              <img src="images/pagseguro.png" alt="PagSeguro" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Action Button (Chat) -->
+    <button class="chat-fab" aria-label="Abrir chat">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10zM8 10h.01M12 10h.01M16 10h.01"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
